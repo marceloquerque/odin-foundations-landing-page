@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-color: #202a37;
+    color: white;
+}
+
+nav, article, ul {
+    display: flex;
+}
+
+nav {
+    /* padding: 30px; */
+    justify-content: space-between;
+}
+
+.logo {
+    /* margin-right: auto; */
+}
+
+ul {
+    list-style-type: none;
+    gap: 36px;
+}
