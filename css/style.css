@@ -129,11 +129,13 @@ main {
     display: flex;
     place-items: center;
     color: #1f2937;
+    position: relative;
 }
 
 .text {
     font-size: 36px;
     font-weight: lighter;
+    text-align: justify;
 }
 
 .quote-author {
@@ -165,4 +167,7 @@ footer {
     background-color: #1f2937;
     height: 100px;
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
