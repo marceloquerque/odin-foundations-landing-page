@@ -16,17 +16,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
-    background-color: #202a37;
-    color: white;
-    padding: 20px 100px 20px 100px;
-    border: 4px dotted red;
+    background-color: #1f2937;
+    padding: 20px 200px 20px 200px;
 }
 
 nav, article, ul {
     display: flex;
+}
+
+.header--title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.header--logo, .header--title {
+    color: #f9faf8;
+}
+
+.header--text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 .header--image {
@@ -45,8 +60,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
     cursor: pointer;
+}
+
+button {
+    color: #e5e7eb;
+    padding: 10px 40px;
+    background-color: #3b82f6;
+    border-radius: .4rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
 }
 
 article {
@@ -59,12 +84,19 @@ main {
     text-align: center;
 }
 
-section {
+.information, .quote {
     height: 400px;
+    padding: 20px 200px 20px 200px;
 }
 
 .information {
-    border: 4px dotted greenyellow;
+
+}
+
+.information--title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .box-container {
@@ -90,13 +122,47 @@ section {
 
 .box p {
     padding-top: 10px;
-    width: fit-content;
 }
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    place-items: center;
+    color: #1f2937;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: lighter;
 }
 
 .quote-author {
-    font-weight: 900;
+    font-weight: bold; 
+}
+
+.calltoaction {
+    color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3b82f6;
+    gap: 50px;
+    padding: 40px 120px;
+    border-radius: .3rem;
+    display: flex;
+    text-align: start;
+}
+
+.calltoaction--btn {
+    border: 2px solid #e5e7eb ;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    color: #e5e7eb;
 }
